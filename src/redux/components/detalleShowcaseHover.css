@@ -1,76 +1,90 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .main_container {
-    position: absolute;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 600px;
-    background-color: #EFEFEF;
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 685px;
+  background-color: #efefef;
 }
 
 .detalle-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
 }
 
 .image_product {
-    position: absolute;
-    z-index: -1;
-    width: 95%;
+  position: absolute;
+  z-index: -1;
+  width: 500px;
+  object-fit: none;
+  height: 596px;
 }
 
 .icons-container {
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 
 .cart-img {
-    padding: 20px;
-    background-color: #ECECEC;
-    border-radius: 7px;
-    width: 15px;
-    height: 15px;
-    margin-right: 3px;
+  padding: 15px;
+  background-color: #ececec;
+  border-radius: 7px;
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
 }
 
 .eye-img {
-    padding: 20px;
-    background-color: #ECECEC;
-    border-radius: 7px;
-    width: 15px;
-    height: 15px;
-    margin-left: 3px;
+  padding: 15px;
+  background-color: #ececec;
+  border-radius: 7px;
+  width: 20px;
+  height: 20px;
+  margin-left: 3px;
 }
-
+.ranking {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: start;
+  width: 95%;
+  height: 560px;
+}
+.star-ranking {
+  height: 20px;
+}
 .info-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 50px;
 }
 
 .title-product {
-    width: 95%;
-    font-weight: 300;
-    font-size: 20px;
-    margin: 10px 0px;
+  width: 95%;
+  font-weight: 300;
+  font-size: 20px;
+  margin: 10px 0px;
 }
 
 .price-product {
-    width: 95%;
-    font-size: 23px;
-    font-weight: 700;
-    margin: 0 auto;
+  width: 95%;
+  font-size: 23px;
+  font-weight: 700;
+  margin: 0 auto;
 }
