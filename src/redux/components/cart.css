@@ -1,0 +1,40 @@
+* {
+    margin: 0 auto;
+}
+
+.main_container {
+    width: 70%;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.cartDetail-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.products-container {
+    align-items: flex-start;
+    border-radius: 3px;
+    border: darkgrey;
+    color: black;
+}
+
+.cart-container {
+    display: flex;
+    flex: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cartTittle {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.image-product {
+    width: 150px;
+}

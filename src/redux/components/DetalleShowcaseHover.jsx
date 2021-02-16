@@ -29,6 +29,7 @@ function DetalleShowcaseHover() {
         <div className="info-container">
           <h1 className="title-product">Escurridor De Cubiertos</h1>
           <p className="price-product">12 € </p>
+          <button>FINALIZAR COMPRA</button>
         </div>
       </section>
     </>
