@@ -8,7 +8,7 @@ function Cart() {
       <section className="main_container">
         <div className="cartDetail-container">
           <div className="products-container">
-            <div className="cartTittle">CARRITO</div>
+            <h1 className="cartTittle">CARRITO</h1>
           </div>
           <div className="cart-container">
             <img
