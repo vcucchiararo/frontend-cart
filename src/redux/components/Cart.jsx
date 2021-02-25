@@ -20,7 +20,7 @@ function Cart() {
             <p className="price">34,50 €</p>
             <p className="delete-product"> X </p>
           </div>
-          <div>
+          <div className="keepBuying">
             <p> Seguir comprando</p>
           </div>
         </div>
@@ -28,12 +28,14 @@ function Cart() {
           <div className="summaryProducts">
             <p className="totalUnity"> 1 artículo</p>
             <p className="totalAmount"> 34,50 €</p>
-            <button>FINALIZAR COMPRA</button>
+          </div>
+          <div className="buyButtonContainer">
+            <button className="buyButton">FINALIZAR COMPRA</button>
           </div>
           <div className="discount-container">
-            <p>Código de descuento</p>
-            <input></input>
-            <button>APLICAR</button>
+            <p className="discountCode">Código de descuento</p>
+            <input className="inputClass"></input>
+            <button className="applyButton">APLICAR</button>
           </div>
         </div>
       </section>
