@@ -1,6 +1,17 @@
-import { combineReducers } from "redux";
-import cartReducer from "./cartReducer";
+import { ADD_ARTICLES } from "../actions/actionTypes";
+import productList from "../../products.mock";
 
-const rootReducer = combineReducers({ cartReducer });
+const initialState = {
+  articles: productList,
+};
+
+function rootReducer(state = initialState, action) {
+  if (action.type === ADD_ARTICLES) {
+    return Object.assign({}, state, {
+      articles: state.articles.concat(action.payload),
+    });
+  }
+  return state;
+}
 
 export default rootReducer;

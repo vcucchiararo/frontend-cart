@@ -2,7 +2,7 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.main_container {
+.main_container_detail {
   position: absolute;
   z-index: 1;
   display: flex;
@@ -54,6 +54,7 @@
   height: 20px;
   margin-left: 3px;
 }
+
 .ranking {
   position: absolute;
   z-index: 1;
@@ -64,9 +65,11 @@
   width: 95%;
   height: 560px;
 }
+
 .star-ranking {
   height: 20px;
 }
+
 .info-container {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,24 @@
 import React from "react";
 import "./cart.css";
-import { cartImage, sartenVintage } from "../../assets";
+import Product from "../product/Product";
+import productList from "../../../products.mock";
+import { connect } from "react-redux";
+
+const mapStateToProps = (state) => {
+  return { articles: state.articles };
+};
+
+const ConnectedList = ({ articles }) => (
+  <div className="cart-container">
+    {articles.map((product) => (
+      <Product product={product} key={product.id} />
+    ))}
+  </div>
+);
+
+const List = connect(mapStateToProps)(ConnectedList);
+
+// export default List;
 
 function Cart() {
   return (
@@ -10,16 +28,7 @@ function Cart() {
           <div className="products-container">
             <h1 className="cartTittle">CARRITO</h1>
           </div>
-          <div className="cart-container">
-            <img
-              className="image-product"
-              alt="sartén vintage"
-              src={sartenVintage}
-            ></img>
-            <p className="name-product">Sartén Vintage</p>
-            <p className="price">34,50 €</p>
-            <p className="delete-product"> X </p>
-          </div>
+          {ConnectedList}
           <div className="keepBuying">
             <p> Seguir comprando</p>
           </div>
