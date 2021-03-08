@@ -10,20 +10,7 @@ function Cart() {
           <div className="products-container">
             <h1 className="cartTittle">CARRITO</h1>
           </div>
-<<<<<<< HEAD:src/redux/components/Cart.jsx
-          <div className="cart-container">
-            <img
-              className="image-product"
-              alt="sartén vintage"
-              src={sartenVintage}
-            ></img>
-            <p className="name-product">Sartén Vintage</p>
-            <p className="price">34,50 €</p>
-            <p className="delete-product"> X </p>
-          </div>
-=======
           <ProductListCart />
->>>>>>> styles:src/redux/components/cart/Cart.jsx
           <div className="keepBuying">
             <p> Seguir comprando</p>
           </div>
