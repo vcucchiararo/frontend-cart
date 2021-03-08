@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import "./App.css";
-import DetalleShowcaseHover from "./redux/components/DetalleShowcaseHover";
-import Cart from "./redux/components/Cart";
+import DetalleShowcaseHover from "./redux/components/DetalleShowcaseHover/DetalleShowcaseHover";
+import Cart from "./redux/components/cart/Cart";
 
 function App() {
   return (

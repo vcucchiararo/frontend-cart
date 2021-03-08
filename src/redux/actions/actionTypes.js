@@ -1,5 +1,5 @@
-const actionTypes = {
+export const actionTypes = {
   LOAD_PRODUCTS: "LOAD_PRODUCTS",
+  ADD_ARTICLE: "ADD_ARTICLE",
+  DELETE_PRODUCT: "DELETE_PRODUCT",
 };
-
-export default actionTypes;

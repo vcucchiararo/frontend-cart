@@ -1,11 +1,11 @@
 import React from "react";
 import "./detalleShowcaseHover.css";
-import { cartImage, eyeImage, starImage } from "../../assets";
+import { cartImage, eyeImage, starImage } from "../../../assets";
 
 function DetalleShowcaseHover() {
   return (
     <>
-      <section className="main_container">
+      <section className="main_container_detail">
         <div className="detalle-container">
           <img
             className="image_product"
@@ -29,7 +29,6 @@ function DetalleShowcaseHover() {
         <div className="info-container">
           <h1 className="title-product">Escurridor De Cubiertos</h1>
           <p className="price-product">12 € </p>
-          <button>FINALIZAR COMPRA</button>
         </div>
       </section>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./cart.css";
-import { cartImage, sartenVintage } from "../../assets";
+import ProductListCart from "../product/list/cart/ProductListCart";
 
 function Cart() {
   return (
@@ -10,6 +10,7 @@ function Cart() {
           <div className="products-container">
             <h1 className="cartTittle">CARRITO</h1>
           </div>
+<<<<<<< HEAD:src/redux/components/Cart.jsx
           <div className="cart-container">
             <img
               className="image-product"
@@ -20,6 +21,9 @@ function Cart() {
             <p className="price">34,50 €</p>
             <p className="delete-product"> X </p>
           </div>
+=======
+          <ProductListCart />
+>>>>>>> styles:src/redux/components/cart/Cart.jsx
           <div className="keepBuying">
             <p> Seguir comprando</p>
           </div>
