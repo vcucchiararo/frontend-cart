@@ -1,10 +1,12 @@
 import React from "react";
 import "./cart.css";
 import ProductListCart from "../product/list/cart/ProductListCart";
+import Header from "../header/Header";
 
 function Cart() {
   return (
     <>
+      <Header />
       <section className="main_container">
         <div className="cartDetail-container">
           <div className="products-container">
